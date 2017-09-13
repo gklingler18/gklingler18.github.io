@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head><title>Drive Safely</title>
+    <style type="text/css">
+        .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+        #h1 {
+            color: darkgreen;
+            font-family: monospace;
+            font-size: 300%;
+        }
+        #h2 {
+            color: darkgreen;
+            font-family: monospace;
+            font-size: 300%;
+        }
+        #p {
+            color: chartreuse;
+            font-family: inherit;
+            font-size: 200%;
+        }
+        #button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        body {
+            background-image: url('background.jpeg')
+        }
+        #button:hover {
+                background-color: #3e8e41;
+            }
+    </style>
+    </head>
+<body>
+    <a href="index.html"><button id='button'>Home</button></a>
+    <a href="info.html"><button id='button'>Information</button></a>
+    <div class="dropdown">
+    <button class="dropbtn">More Websites</button>
+    <div class="dropdown-content">
+        <a href="https://www.dmv.ca.gov/portal/dmv">California DMV</a>
+        <a href="http://www.dmv.org/how-to-guides/safety-and-driving.php">Driving Safety</a>
+        <a href="http://teendriving.aaa.com/CA/supervised-driving/licensing-and-state-laws/">California Driving Laws</a>
+        </div>
+    </div>
+    <h1 id='h1'>Driving Safety</h1>
+    <p id='p'>In this site, we teach you how to drive safely to avoid you and/or others from getting hurt.</p>
+    <h2 id='h2'>Behind the Page</h2>
+    <p id='p'>Graham Klingler created this website for his English memoir, but then got bored and decided to make this website extraordinary. He spent a few hours coding this.</p>
+    </body>
+</html>
